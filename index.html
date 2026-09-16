@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Pulse | Student Experience</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="background-grid"></div>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+
+    <!-- LEFT: BRAND -->
+    <div class="brand">
+        <div class="pulse-logo">
+            <i class="fa-solid fa-wave-square"></i>
+        </div>
+
+        <span>CAMPUS <strong>PULSE</strong></span>
+    </div>
+
+
+    <!-- CENTER: NAVIGATION -->
+    <nav class="nav-links">
+
+        <a href="index.html" class="nav-link active">
+            Home
+        </a>
+
+        <a href="experience.html" class="nav-link">
+        My Experience
+        </a>
+
+        <a href="feedback.html" class="nav-link">
+            Give Feedback <span class="arrow">→</span>
+        </a>
+
+        <a href="insights.html" class="nav-link">
+        Insights
+        </a>
+
+    </nav>
+
+
+    <!-- RIGHT: NOTIFICATION + PROFILE -->
+    <div class="nav-right">
+
+        <button class="notification-btn" title="Notifications">
+            <i class="fa-regular fa-bell"></i>
+            <span class="notification-dot"></span>
+        </button>
+
+
+        <button class="profile">
+
+            <div class="avatar">
+                K
+            </div>
+
+            <span class="profile-name">Kanak</span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="main-container">
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero-section">
+
+
+            <!-- LEFT SIDE -->
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    STUDENT EXPERIENCE PLATFORM
+                </div>
+
+
+                <h1>
+                    YOUR VOICE
+                    <br>
+                    <span>SHAPES YOUR</span>
+                    <br>
+                    CAMPUS.
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Share your experience.
+                    Influence better teaching.
+                    Help create a better learning environment.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <button class="primary-btn" id="feedbackBtn">
+
+                        <span>Share Your Experience</span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                    <button class="secondary-btn">
+
+                        Explore My Experience
+
+                    </button>
+
+                </div>
+
+
+                <!-- small trust text -->
+
+                <div class="trust-message">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    Your feedback is confidential
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= EXPERIENCE UNIVERSE ================= -->
+
+            <div class="universe-container">
+
+
+                <!-- orbital rings -->
+
+                <div class="orbit orbit-large"></div>
+                <div class="orbit orbit-medium"></div>
+                <div class="orbit orbit-small"></div>
+
+
+                <!-- connection SVG -->
+
+                <svg class="connections"
+                     viewBox="0 0 700 650"
+                     preserveAspectRatio="none">
+
+                    <line x1="350" y1="325"
+                          x2="170" y2="125"
+                          class="connection-line faculty-line"/>
+
+                    <line x1="350" y1="325"
+                          x2="535" y2="120"
+                          class="connection-line courses-line"/>
+
+                    <line x1="350" y1="325"
+                          x2="555" y2="390"
+                          class="connection-line labs-line"/>
+
+                    <line x1="350" y1="325"
+                          x2="160" y2="395"
+                          class="connection-line campus-line"/>
+
+                    <line x1="350" y1="325"
+                          x2="310" y2="535"
+                          class="connection-line feedback-line"/>
+
+                </svg>
+
+
+                <!-- ================= CENTRAL NODE ================= -->
+
+                <div class="central-node">
+
+                    <div class="central-glow"></div>
+
+                    <div class="central-inner">
+
+                        <div class="central-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <h2>YOU</h2>
+
+                        <p>Student<br>Experience</p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================= FACULTY ================= -->
+
+                <button class="experience-node faculty-node"
+                        data-title="Faculty Experience"
+                        data-description="3 experiences shared">
+
+                    <div class="node-icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+
+                    <div>
+                        <strong>FACULTY</strong>
+                        <small>3 experiences</small>
+                    </div>
+
+                    <span class="status-dot"></span>
+
+                </button>
+
+
+                <!-- ================= COURSES ================= -->
+
+                <button class="experience-node courses-node active-node"
+                        data-title="Course Experience"
+                        data-description="2 feedbacks waiting">
+
+                    <div class="node-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <strong>COURSES</strong>
+                        <small>2 feedbacks pending</small>
+                    </div>
+
+                    <span class="status-dot"></span>
+
+                </button>
+
+
+                <!-- COURSE TOOLTIP -->
+
+                <div class="node-tooltip" id="courseTooltip">
+
+                    <div class="tooltip-label">
+                        COURSE EXPERIENCE
+                    </div>
+
+                    <strong>2 feedbacks waiting</strong>
+
+                    <button>
+                        Explore
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+
+                <!-- ================= CAMPUS ================= -->
+
+                <button class="experience-node campus-node"
+                        data-title="Campus Experience"
+                        data-description="Facilities & Services">
+
+                    <div class="node-icon">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+
+                    <div>
+                        <strong>CAMPUS</strong>
+                        <small>Facilities & Services</small>
+                    </div>
+
+                    <span class="status-dot"></span>
+
+                </button>
+
+
+                <!-- ================= LABS ================= -->
+
+                <button class="experience-node labs-node"
+                        data-title="Lab Experience"
+                        data-description="1 feedback pending">
+
+                    <div class="node-icon">
+                        <i class="fa-solid fa-flask"></i>
+                    </div>
+
+                    <div>
+                        <strong>LABS</strong>
+                        <small>1 feedback pending</small>
+                    </div>
+
+                    <span class="status-dot"></span>
+
+                </button>
+
+
+                <!-- ================= FEEDBACK ================= -->
+
+                <button class="experience-node feedback-node"
+                        data-title="Learning Experience"
+                        data-description="Share your voice">
+
+                    <div class="node-icon">
+                        <i class="fa-solid fa-comment"></i>
+                    </div>
+
+                    <div>
+                        <strong>FEEDBACK</strong>
+                        <small>Learning Experience</small>
+                    </div>
+
+                    <span class="status-dot"></span>
+
+                </button>
+
+
+                <!-- floating particles -->
+
+                <span class="particle particle-one"></span>
+                <span class="particle particle-two"></span>
+                <span class="particle particle-three"></span>
+                <span class="particle particle-four"></span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= BOTTOM SECTION ================= -->
+
+        <section class="bottom-section">
+
+
+            <!-- VOICE PROGRESS -->
+
+            <div class="glass-card progress-card">
+
+                <div class="card-heading">
+
+                    <span>YOUR VOICE THIS MONTH</span>
+
+                    <i class="fa-solid fa-microphone"></i>
+
+                </div>
+
+
+                <div class="progress-content">
+
+                    <div class="progress-ring">
+
+                        <svg viewBox="0 0 120 120">
+
+                            <circle
+                                class="ring-background"
+                                cx="60"
+                                cy="60"
+                                r="50">
+                            </circle>
+
+                            <circle
+                                class="ring-progress"
+                                cx="60"
+                                cy="60"
+                                r="50">
+                            </circle>
+
+                        </svg>
+
+                        <div class="progress-number">
+                            67%
+                        </div>
+
+                    </div>
+
+
+                    <div class="progress-text">
+
+                        <strong>4 of 6 experiences shared</strong>
+
+                        <span>
+                            2 experiences waiting for your voice
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- EMOTIONAL EXPERIENCE -->
+
+            <div class="glass-card emotion-card">
+
+                <div class="card-heading">
+
+                    <span>
+                        HOW ARE YOU FEELING ABOUT YOUR
+                        LEARNING EXPERIENCE?
+                    </span>
+
+                    <i class="fa-regular fa-face-smile"></i>
+
+                </div>
+
+
+                <div class="emotion-list">
+
+
+                    <button class="emotion"
+                            data-emotion="Needs Improvement">
+
+                        <span>😕</span>
+
+                        <small>Needs improvement</small>
+
+                    </button>
+
+
+                    <button class="emotion"
+                            data-emotion="Okay">
+
+                        <span>😐</span>
+
+                        <small>Okay</small>
+
+                    </button>
+
+
+                    <button class="emotion"
+                            data-emotion="Good">
+
+                        <span>🙂</span>
+
+                        <small>Good</small>
+
+                    </button>
+
+
+                    <button class="emotion selected"
+                            data-emotion="Great">
+
+                        <span>😊</span>
+
+                        <small>Great</small>
+
+                    </button>
+
+
+                    <button class="emotion"
+                            data-emotion="Excellent">
+
+                        <span>🤩</span>
+
+                        <small>Excellent</small>
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI INSIGHT -->
+
+            <div class="glass-card insight-card">
+
+                <div class="insight-header">
+
+                    <div class="ai-icon">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+
+                    <span>CAMPUS PULSE</span>
+
+                </div>
+
+
+                <p>
+                    Student experience is
+                    <strong>trending upward</strong>
+                </p>
+
+
+                <div class="trend">
+
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+
+                    <strong>6.4%</strong>
+
+                    <span>this month</span>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Feedback modal -->
+
+    <div class="modal-overlay" id="feedbackModal">
+
+        <div class="feedback-modal">
+
+            <button class="close-modal" id="closeModal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-comment-dots"></i>
+            </div>
+
+
+            <span class="modal-label">
+                SHARE YOUR EXPERIENCE
+            </span>
+
+
+            <h2>
+                What would you like
+                to tell us about?
+            </h2>
+
+
+            <div class="modal-options">
+
+                <button>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Faculty
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-book"></i>
+                    Courses
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-flask"></i>
+                    Labs
+                </button>
+
+                <button>
+                    <i class="fa-solid fa-building"></i>
+                    Campus
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
